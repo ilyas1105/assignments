@@ -4,122 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ilyas Portfolio</title>
+    <title>Flexbox</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon-32x32.png">
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="hero">
-          <nav>
-            <h2 class="logo">Ily</h2>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#about">About Me</a></li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="http://www.twitter.com/iopebiyi8" href="http://www.instagram.com/ilyasopebiyi">Contact</a></li>
-              
-            </ul>
-          </nav>
-          <div class="content">
-            <h4>Hello, my name is</h4>
-            <h1>Ilyas <span>Opebiyi</span></h1>
-            <h3>I'm a full-stack web developer.</h3>
-            <button class="hire">Hire me</button>
-            <div class="newslatter">
-              <form>
-                <input type="email" name="email" id="mail" placeholder="Enter Your Email">
-                <input type="submit" name="submit" value="Lets Start"
-              </form>
-          </div>
+    <div class="container">
+        <div class="first">
+          <img src="/images/icon-sedans.svg" alt="Sedans" />
+          <h2>SEDANS</h2>
+          <p>Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next
+            road trip.</p>
+          <button class="btn1">Learn More</button>
         </div>
-      </header>
-      <main>
-    <!--   About section -->
-        <section class="about">
-          <div class="main">
-            <img src="images/Ilyas.jpeg" alt="Ilyas">
-            <div class="about-text">
-              <h2 id="about">About Me</h2>
-              <h5>Web <span>Developer</span></h5>
-              <p>I am a full-stack web developer. I can provide clean code and create a website that a user can interact with in order to get their problem solved. I can make a website accessible to all users, regardless of their device.</p>
-              <button class="btn">Let's Talk</button>
-            </div>
-          </div>
-        </section>
-    
-    <!--services section-->
-      
-        <div class="service">
-          <div class="title">
-            <h2 id="services">Services</h2>
-          </div>
-          <div class="box">
-            <div class="card">
-              <h5 class="two">Web Development</h5>
-              <div class="p">
-                <p>The creation of a website for the internet (World Wide Web) or an intranet (a private network) and to ensure that the website is visually appealing and easy to navigate.</p>
-              </div>
-            </div>
-            <div class="box">
-              <div class="card">
-                <h5 class="two">Web Development</h5>
-                <div class="p">
-                  <p>Writing and reviewing code for sites, typically HTML, CSS & Javascript.</p>
-                </div>
-              </div>
-              <div class="box">
-                <div class="card">
-                  <h5 class="two">Web Development</h5>
-                  <div class="p">
-                    <p>Designing user interfaces and navgiation menu.</p>
-                  </div>
-                </div> 
-              </div>
-            </div>
-          </div>
-    
-    <!-- project section -->
-          <section class="head1">
-            <div class="list">
-              <div class="card1">
-                <h2 class="head" id="projects">Projects</h2>
-                <p>A tribute page</p>
-                <p>HTML table task</p>
-                <p>Tic Tac Toe game</p>
-                <p>Guessing game</p>
-                <p>HTML website creation</p>
-              </div>
-            </div>
-            <div class="list">
-              <div class="card1">
-                <h2 class="head">Hobbies</h2>
-                <p>My hobbies are reading, playing around with the programming languages(HTML, CSS & JavaScript), play football, watch football games, eat healthy and networking.</p>
-              </div>
-            </div>
-            <div class="list">
-              <div class="card1">
-                <h2 class="head">Priorities</h2>
-                <p>To become a professional web developer, To accomplish my set goals, To live my desired lifestyle, and To focus on my dreams.</p>
-              </div>
-            </div>
-          </section>
-    <!--contact Me -->
-          <div class="contact">
-            <p>Let me create you a beautiful website.</p>
-            <a class="btn1" href="#">Hire Me</a>
-          </div>
-      </main>
-    <!-- footer -->
-        <footer>
-          <p>Ilyas Opebiyi</p>
-          <div class="social">
-            <a href="http://www.instagram.com/ilyasopebiyi" target="_blank" class="fa-brands fa-instagram"></a>
-            <a href="http://www.twitter.com/iopebiyi8" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-          </div>
-          <a class="a" href="mailto:opebiyiilyas@gmail.com">Email</a>
-          <p class="end">CopyRight By Ilyas Opebiyi</p>
-        </footer>
+        <div class="second">
+          <img src="/images/icon-suvs.svg" alt="Sedans" />
+          <h2>SUVS</h2>
+          <p>Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and
+            off-road adventures.</p>
+          <button class="btn2">Learn More</button>
+        </div>
+        <div class="last">
+          <img src="/images/icon-luxury.svg" alt="Sedans" />
+          <h2>LUXURY</h2>
+          <p>Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and
+            arrive in style.</p>
+          <button class="btn3">Learn More</button>
+        </div>
+      </div>
 </body>
 </html>
